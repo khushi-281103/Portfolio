@@ -369,83 +369,8 @@ export default function Home() {
             <SectionHeader index="03." title="Featured Projects" />
 
             <div className="space-y-8">
-              
-              {/* Featured Project 1 — Predictive Modelling */}
-              <div className="bg-card border border-border rounded-xl overflow-hidden card-hover-border group relative">
-                <div className="absolute top-0 bottom-0 left-0 w-1 bg-gradient-to-b from-primary to-secondary"></div>
-                <div className="p-8 sm:p-10 relative">
-                  <div className="absolute top-8 right-8 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
-                    <ArrowRight className="text-primary" size={28} />
-                  </div>
-                  
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="p-3 bg-primary/10 rounded-lg text-primary">
-                      <Briefcase size={28} />
-                    </div>
-                    <div>
-                      <p className="font-mono text-primary text-sm mb-1">Featured Project · Feb 2025 – May 2025</p>
-                      <h3 className="text-3xl font-bold group-hover:text-primary transition-colors">Predictive Modelling for Sales Forecasting</h3>
-                    </div>
-                  </div>
-                  
-                  <p className="text-muted-foreground text-lg mb-8 max-w-3xl leading-relaxed">
-                    Performed time-series analysis and developed predictive models using historical sales data to forecast product demand across multiple categories and regions. Designed and deployed a full-stack dashboard using React and Flask REST APIs for real-time visualization and monitoring.
-                  </p>
-                  
-                  <div className="flex flex-wrap items-center justify-between gap-4">
-                    <div className="flex flex-wrap items-center gap-3">
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Python</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Flask</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">React</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">TensorFlow</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Scikit-learn</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Power BI</span>
-                    </div>
-                    <a href="https://github.com/Atharv-082004/SMART-INVENTORY-MANAGEMENT/tree/main/Python%20Project%20Final" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-mono" data-testid="link-github-predictive">
-                      <Github size={16} /> View on GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
 
-              {/* Featured Project 2 — Credit Card Fraud Detection */}
-              <div className="bg-card border border-border rounded-xl overflow-hidden card-hover-border group relative">
-                <div className="absolute top-0 bottom-0 left-0 w-1 bg-gradient-to-b from-secondary to-primary"></div>
-                <div className="p-8 sm:p-10 relative">
-                  <div className="absolute top-8 right-8 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
-                    <ArrowRight className="text-secondary" size={28} />
-                  </div>
-
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="p-3 bg-secondary/10 rounded-lg text-secondary">
-                      <Database size={28} />
-                    </div>
-                    <div>
-                      <p className="font-mono text-secondary text-sm mb-1">Featured Project · Sep 2024 – Dec 2024</p>
-                      <h3 className="text-3xl font-bold group-hover:text-secondary transition-colors">Credit Card Fraud Detection</h3>
-                    </div>
-                  </div>
-
-                  <p className="text-muted-foreground text-lg mb-8 max-w-3xl leading-relaxed">
-                    Developed Flask-based REST APIs to process and analyse transaction data in real time, identifying fraudulent patterns using machine learning. Built an interactive React frontend to visualize fraud detection results and integrate seamlessly with the backend APIs.
-                  </p>
-
-                  <div className="flex flex-wrap items-center justify-between gap-4">
-                    <div className="flex flex-wrap items-center gap-3">
-                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Python</span>
-                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Flask</span>
-                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">React</span>
-                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Scikit-learn</span>
-                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">REST API</span>
-                    </div>
-                    <a href="https://github.com/khushi-281103" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-secondary transition-colors font-mono" data-testid="link-github-fraud">
-                      <Github size={16} /> View on GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Featured Project 3 — Historica */}
+              {/* Featured Project 1 — Historica */}
               <div className="bg-card border border-border rounded-xl overflow-hidden card-hover-border group relative">
                 <div className="absolute top-0 bottom-0 left-0 w-1 bg-gradient-to-b from-primary to-secondary"></div>
                 <div className="p-8 sm:p-10 relative">
@@ -484,8 +409,71 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* Featured Project 2 — Predictive Modelling */}
+              <div className="bg-card border border-border rounded-xl overflow-hidden card-hover-border group relative">
+                <div className="absolute top-0 bottom-0 left-0 w-1 bg-gradient-to-b from-secondary to-primary"></div>
+                <div className="p-8 sm:p-10 relative">
+                  <div className="absolute top-8 right-8 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
+                    <ArrowRight className="text-secondary" size={28} />
+                  </div>
+
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="p-3 bg-secondary/10 rounded-lg text-secondary">
+                      <Briefcase size={28} />
+                    </div>
+                    <div>
+                      <p className="font-mono text-secondary text-sm mb-1">Featured Project · Feb 2025 – May 2025</p>
+                      <h3 className="text-3xl font-bold group-hover:text-secondary transition-colors">Predictive Modelling for Sales Forecasting</h3>
+                    </div>
+                  </div>
+
+                  <p className="text-muted-foreground text-lg mb-8 max-w-3xl leading-relaxed">
+                    Performed time-series analysis and developed predictive models using historical sales data to forecast product demand across multiple categories and regions. Designed and deployed a full-stack dashboard using React and Flask REST APIs for real-time visualization and monitoring.
+                  </p>
+
+                  <div className="flex flex-wrap items-center justify-between gap-4">
+                    <div className="flex flex-wrap items-center gap-3">
+                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Python</span>
+                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Flask</span>
+                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">React</span>
+                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">TensorFlow</span>
+                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Scikit-learn</span>
+                      <span className="bg-secondary/10 text-secondary border border-secondary/20 rounded-full font-mono text-xs px-4 py-1.5">Power BI</span>
+                    </div>
+                    <a href="https://github.com/Atharv-082004/SMART-INVENTORY-MANAGEMENT/tree/main/Python%20Project%20Final" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-secondary transition-colors font-mono" data-testid="link-github-predictive">
+                      <Github size={16} /> View on GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
               {/* Grid Projects */}
               <div className="grid md:grid-cols-2 gap-8">
+                {/* Project — Credit Card Fraud Detection */}
+                <div className="bg-card border border-border rounded-xl p-8 card-hover-border group flex flex-col h-full relative">
+                  <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
+                    <ArrowRight className="text-primary" size={24} />
+                  </div>
+                  <div className="p-3 bg-primary/10 rounded-lg text-primary w-max mb-6">
+                    <Database size={24} />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">Credit Card Fraud Detection</h3>
+                  <p className="text-muted-foreground text-base flex-grow mb-8">
+                    Developed Flask-based REST APIs to process and analyse transaction data in real time, identifying fraudulent patterns using machine learning. Built an interactive React frontend to visualize fraud detection results and integrate seamlessly with the backend APIs.
+                  </p>
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <div className="flex flex-wrap gap-2">
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">Python</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">Flask</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">React</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">Scikit-learn</span>
+                    </div>
+                    <a href="https://github.com/khushi-281103" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-primary transition-colors font-mono shrink-0" data-testid="link-github-fraud">
+                      <Github size={14} /> GitHub
+                    </a>
+                  </div>
+                </div>
+
                 {/* Project — Chat-Bot Echo */}
                 <div className="bg-card border border-border rounded-xl p-8 card-hover-border group flex flex-col h-full relative">
                   <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
