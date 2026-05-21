@@ -197,7 +197,7 @@ export default function Home() {
               </div>
               <div className="w-px h-12 bg-border"></div>
               <div className="flex flex-col">
-                <span className="text-3xl font-black text-foreground">4</span>
+                <span className="text-3xl font-black text-foreground">5</span>
                 <span className="text-xs font-mono text-muted-foreground uppercase tracking-wider">Projects</span>
               </div>
               <div className="w-px h-12 bg-border"></div>
@@ -445,27 +445,47 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Grid Projects */}
-              <div className="grid md:grid-cols-2 gap-8">
-                {/* Project — Smart EOL */}
-                <div className="bg-card border border-border rounded-xl p-8 card-hover-border group flex flex-col h-full relative">
-                  <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
-                    <ArrowRight className="text-primary" size={24} />
+              {/* Featured Project 3 — Historica */}
+              <div className="bg-card border border-border rounded-xl overflow-hidden card-hover-border group relative">
+                <div className="absolute top-0 bottom-0 left-0 w-1 bg-gradient-to-b from-primary to-secondary"></div>
+                <div className="p-8 sm:p-10 relative">
+                  <div className="absolute top-8 right-8 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
+                    <ArrowRight className="text-primary" size={28} />
                   </div>
-                  <div className="p-3 bg-primary/10 rounded-lg text-primary w-max mb-6">
-                    <Code size={24} />
+
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="p-3 bg-primary/10 rounded-lg text-primary">
+                      <Globe size={28} />
+                    </div>
+                    <div>
+                      <p className="font-mono text-primary text-sm mb-1">Featured Project · B.Tech Final Year</p>
+                      <h3 className="text-3xl font-bold group-hover:text-primary transition-colors">Historica — AR/VR Immersive Learning Experience</h3>
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">Smart EOL Component Replacement System</h3>
-                  <p className="text-muted-foreground text-base flex-grow mb-8">
-                    AI-powered system developed under L&T Technology Services. Implemented Form-Fit-Function compatibility analysis to suggest component replacements with an interactive React frontend.
+
+                  <p className="text-muted-foreground text-lg mb-8 max-w-3xl leading-relaxed">
+                    Web-based AR/VR platform that brings historical monuments to life through interactive 3D reconstructions. Features a time-travel toggle to compare past vs present states of ancient sites, map-based global navigation, and WebXR-powered AR directly in the browser — no headset required.
                   </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">Python</span>
-                    <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">Flask</span>
-                    <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">React</span>
+
+                  <div className="flex flex-wrap items-center justify-between gap-4">
+                    <div className="flex flex-wrap items-center gap-3">
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">React</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Three.js</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">React Three Fiber</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">WebXR</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Node.js</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">PostgreSQL</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Mapbox</span>
+                    </div>
+                    <a href="https://github.com/Atharv-082004/Historica-AR-VR-Powered-Immersive-Learning-Experience" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-mono">
+                      <Github size={16} /> View on GitHub
+                    </a>
                   </div>
                 </div>
+              </div>
 
+              {/* Grid Projects */}
+              <div className="grid md:grid-cols-2 gap-8">
                 {/* Project — Chat-Bot Echo */}
                 <div className="bg-card border border-border rounded-xl p-8 card-hover-border group flex flex-col h-full relative">
                   <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-all translate-x-4 group-hover:translate-x-0">
