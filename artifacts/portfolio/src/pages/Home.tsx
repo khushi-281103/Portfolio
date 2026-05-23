@@ -402,7 +402,7 @@ export default function Home() {
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">PostgreSQL</span>
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Mapbox</span>
                     </div>
-                    <a href="https://github.com/Atharv-082004/Historica-AR-VR-Powered-Immersive-Learning-Experience" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-mono self-end">
+                    <a href="hhttps://github.com/Atharv-082004/Historica_code" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-mono self-end">
                       <Github size={16} /> View on GitHub
                     </a>
                   </div>
