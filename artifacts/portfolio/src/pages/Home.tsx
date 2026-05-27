@@ -312,15 +312,15 @@ export default function Home() {
                     <ul className="space-y-3 text-muted-foreground leading-relaxed">
                       <li className="flex items-start gap-3">
                         <span className="text-primary mt-1.5"><Zap size={16} /></span>
-                        <span>Evaluated AI responses for student homework problems (Science, Math, Chemistry) and provided structured error justifications.</span>
+                        <span>Evaluated 500+ AI-generated responses for STEM homework problems and provided structured error analysis to improve model accuracy.</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="text-primary mt-1.5"><Zap size={16} /></span>
-                        <span>Performed multimodal testing by modifying images (perspective, size, blur, distortion) to assess visual reasoning.</span>
+                        <span>Conducted multimodal testing on 200+ modified images using distortions, scaling, and perspective changes to analyze AI visual reasoning performance.</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="text-primary mt-1.5"><Zap size={16} /></span>
-                        <span>Annotated high-resolution app interfaces using bounding boxes and documented functionality of each UI element to support model training.</span>
+                        <span>Annotated 100+ high-resolution app interfaces using bounding boxes to support multimodal AI model training.</span>
                       </li>
                     </ul>
                   </div>
@@ -388,9 +388,20 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <p className="text-muted-foreground text-lg mb-8 max-w-3xl leading-relaxed">
-                    Web-based AR/VR platform that brings historical monuments to life through interactive 3D reconstructions. Features a time-travel toggle to compare past vs present states of ancient sites, map-based global navigation, and WebXR-powered AR directly in the browser — no headset required.
-                  </p>
+                  <ul className="space-y-3 text-muted-foreground text-base mb-8 max-w-3xl">
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1.5"><Zap size={16} /></span>
+                      <span>Engineered a web-based AR/VR historical learning platform featuring 50+ interactive 3D heritage reconstructions.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1.5"><Zap size={16} /></span>
+                      <span>Integrated Leaflet.js-based map navigation supporting exploration of 70+ historical locations across India.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-primary mt-1.5"><Zap size={16} /></span>
+                      <span>Integrated AI-powered historical simulations and educational overlays across 80+ interactive 3D heritage reconstructions.</span>
+                    </li>
+                  </ul>
 
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-wrap items-center gap-3">
@@ -427,9 +438,20 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <p className="text-muted-foreground text-lg mb-8 max-w-3xl leading-relaxed">
-                    Performed time-series analysis and developed predictive models using historical sales data to forecast product demand across multiple categories and regions. Designed and deployed a full-stack dashboard using React and Flask REST APIs for real-time visualization and monitoring.
-                  </p>
+                  <ul className="space-y-3 text-muted-foreground text-base mb-8 max-w-3xl">
+                    <li className="flex items-start gap-3">
+                      <span className="text-secondary mt-1.5"><Zap size={16} /></span>
+                      <span>Developed time-series forecasting models using historical sales data to predict product demand across multiple product categories and regions.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-secondary mt-1.5"><Zap size={16} /></span>
+                      <span>Performed data preprocessing, feature engineering, and statistical analysis using Python and SQL, improving forecasting accuracy and model reliability.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="text-secondary mt-1.5"><Zap size={16} /></span>
+                      <span>Built a full-stack analytics dashboard using React.js frontend and Flask REST APIs for real-time visualization, monitoring, and analysis of sales predictions.</span>
+                    </li>
+                  </ul>
 
                   <div className="flex flex-wrap items-center justify-between gap-4">
                     <div className="flex flex-wrap items-center gap-3">
@@ -483,9 +505,20 @@ export default function Home() {
                     <Globe size={24} />
                   </div>
                   <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">Chat-Bot (Echo)</h3>
-                  <p className="text-muted-foreground text-base flex-grow mb-8">
-                    Intelligent Android chatbot enabling real-time interaction through NLP-based dialogue handling. Simulated natural conversations and integrated Firebase Authentication for secure login, signup, and session management.
-                  </p>
+                  <ul className="space-y-2 text-muted-foreground text-sm flex-grow mb-8">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1"><Zap size={13} /></span>
+                      <span>Designed an Android chatbot supporting secure Firebase authentication and real-time conversational interactions.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1"><Zap size={13} /></span>
+                      <span>Developed NLP-based dialogue handling to improve conversational response accuracy and interaction flow.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary mt-1"><Zap size={13} /></span>
+                      <span>Integrated Firebase Authentication for secure user login, signup, and session management.</span>
+                    </li>
+                  </ul>
                   <div className="flex flex-wrap items-center justify-between gap-3">
                     <div className="flex flex-wrap gap-2">
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-3 py-1">Java</span>
