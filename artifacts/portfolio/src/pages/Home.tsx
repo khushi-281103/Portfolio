@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 import { Moon, Sun, Menu, X, Github, Linkedin, Mail, MapPin, Phone, Terminal, Briefcase, GraduationCap, Award, Zap, Code, Database, Globe, ArrowRight } from "lucide-react";
-import { SiPython, SiReact, SiHtml5, SiMysql, SiFirebase, SiFlask, SiNumpy, SiPandas, SiCplusplus, SiGit } from "react-icons/si";
+import { SiPython, SiReact, SiHtml5, SiMysql, SiFirebase, SiFlask, SiNumpy, SiPandas, SiCplusplus, SiGit, SiLeaflet, SiVscodium, SiVercel } from "react-icons/si";
 import { useTheme } from "@/components/ThemeProvider";
 
 const SECTIONS = [
@@ -305,7 +305,7 @@ export default function Home() {
                         </a>
                       </div>
                       <div className="font-mono text-sm px-4 py-1.5 rounded-full bg-muted text-muted-foreground whitespace-nowrap self-start">
-                        Jan 2026 – Apr 2026 · Remote
+                        Jan 2026 – May 2026 · Remote
                       </div>
                     </div>
                     
@@ -383,7 +383,7 @@ export default function Home() {
                       <Globe size={28} />
                     </div>
                     <div>
-                      <p className="font-mono text-primary text-sm mb-1">Featured Project · B.Tech Final Year</p>
+                      <p className="font-mono text-primary text-sm mb-1">Featured Project · Jan 2026 – Jun 2026</p>
                       <h3 className="text-3xl font-bold group-hover:text-primary transition-colors">Historica — AR/VR Immersive Learning Experience</h3>
                     </div>
                   </div>
@@ -395,14 +395,14 @@ export default function Home() {
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-wrap items-center gap-3">
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">React</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">TypeScript</span>
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Three.js</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">React Three Fiber</span>
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">WebXR</span>
                       <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Node.js</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">PostgreSQL</span>
-                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Mapbox</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Express.js</span>
+                      <span className="bg-primary/10 text-primary border border-primary/20 rounded-full font-mono text-xs px-4 py-1.5">Leaflet.js</span>
                     </div>
-                    <a href="hhttps://github.com/Atharv-082004/Historica_code" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-mono self-end">
+                    <a href="https://github.com/Atharv-082004/Historica-AR-VR-Powered-Immersive-Learning-Experience" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors font-mono self-end">
                       <Github size={16} /> View on GitHub
                     </a>
                   </div>
@@ -561,6 +561,9 @@ export default function Home() {
                     { icon: <SiPandas size={32} />, name: "Pandas" },
                     { icon: <Code size={32} />, name: "Scikit-learn" },
                     { icon: <Globe size={32} />, name: "TensorFlow" },
+                    { icon: <SiLeaflet size={32} />, name: "Leaflet.js" },
+                    { icon: <SiVscodium size={32} />, name: "VS Code" },
+                    { icon: <SiVercel size={32} />, name: "Vercel" },
                   ].map((tech) => (
                     <motion.div 
                       key={tech.name} 
