@@ -348,11 +348,11 @@ export default function Home() {
                     <ul className="space-y-3 text-muted-foreground leading-relaxed">
                       <li className="flex items-start gap-3">
                         <span className="text-secondary mt-1.5"><Zap size={16} /></span>
-                        <span>Developed and built a personalized chat-bot using MSG91.</span>
+                        <span>Engineered a GenAI-powered customer chatbot using MSG91, automating end-to-end interaction workflows and reducing manual handling by 30%.</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <span className="text-secondary mt-1.5"><Zap size={16} /></span>
-                        <span>Integrated WhatsApp and payment APIs to provide scalable, automated, and personalized platform to help businesses effectively manage customer interactions.</span>
+                        <span>Integrated WhatsApp Business API and payment gateway APIs, cutting average customer response time by 30% and enabling 24/7 automated support.</span>
                       </li>
                     </ul>
                   </div>

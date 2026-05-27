@@ -1,0 +1,77 @@
+Atharv Sharma
+sharmaatharv734 @gmail.com +91 9406951657 Indore, India
+https://www.linkedin.com/in/atharv-sharma-8863a92b5/ https://github.com/Atharv-082004 atharvsharma.vercel.app
+EDUCATION
+B. Tech in Information Technology, (Lateral Entry)
+Acropolis Institute of Technology and Research, Indore
+Diploma in Information Technology
+Government Polytechnic College, Ujjain
+Higher Secondary Education
+Shri Guru Tegh Bahadur Academy, Ratlam
+SKILLS
+Technical Skills: Python, Java, React, HTML, CSS, MySQL, Power BI, REST APIs
+Libraries/Frameworks: Three.js, Flask, NumPy, Pandas, Leaflet.js
+Tools & Platforms: Git/ GitHub, Firebase, VS Code, Vercel, AWS (Cloud Architecting)
+Concepts: DSA, OOP , DBMS, Operating Systems, Machine Learning, AR/ VR, WebXR, Deep Learning, LLM Evaluation
+WORK EXPERIENCE
+Ethara.AI
+LLM Post Training Intern
+• Evaluated 500+ LLM-generated STEM responses and delivered structured error analysis, contributing to
+measurable improvements in model accuracy across mathematics and science domains.
+• Designed and executed multimodal test suites across 200+ distorted and transformed images, identifying
+visual reasoning failure modes in production AI models.
+• Annotated 100+ high-resolution UI screenshots with precision bounding boxes, accelerating multimodal
+training data pipeline for computer vision model development.
+ThePawsitivity
+GenAI Intern
+• Engineered a GenAI-powered customer chatbot using MSG91, automating end-to-end interaction
+workflows and reducing manual handling by 30%.
+• Integrated WhatsApp Business API and payment gateway APIs, cutting average customer response time
+by 30% and enabling 24/ 7 automated support.
+PROJECTS
+Historica – AR/VR Powered Immersive Learning Platform⁠
+React | TypeScript | Three.js | WebXR | Node.js | Express.js | Leaflet.js
+• Architected a full-stack AR/ VR learning platform using React, TypeScript, Three.js, and WebXR — rendering
+50+ interactive 3D heritage models with sub-3s load times.
+• Integrated Leaflet.js-based map navigation supporting exploration of 70+ historical locations across India.
+• Integrated AI-driven simulations and contextual overlays across 80+ 3D reconstructions, improving
+historical content engagement for self-paced learners.
+Smart EOL Component Replacement System
+Python | Flask | React | Machine Learning | REST API
+• Built an ML-powered EOL component detection engine using Python and Flask, enabling automated
+identification of industrial replacements across large component datasets.
+• Developed and deployed an FFF compatibility analysis tool, enhancing industrial dataset component
+identification accuracy by 40% and reducing search time by 25%.
+• Engineered a React-based frontend integrated with Flask REST APIs for real-time component compatibility
+visualization.
+Echo – AI Chatbot Application⁠
+Java | Android Studio | Firebase | XML
+• Designed an Android chatbot application supporting secure Firebase authentication and real-time
+conversational interactions.
+• Developed NLP-based dialogue handling to improve conversational response accuracy and chatbot
+interaction flow.
+CERTIFICATES
+AWS Cloud Architecting - AWS⁠
+Deloitte Data Analytics Job Simulation - Forage⁠
+Nvidia Fundamentals of Deep Learning - Nvidia⁠
+Walmart Advanced Software Engineering Job Simulation - Forage⁠
+JP Morgan Chase & Co. Software Engineering Job Simulation - Forage⁠
+EXTRACURRICULAR ACTIVITIES
+Class Representative
+Coordinated communication between 60+ students and faculty while organizing class activities and
+maintaining discipline.
+Sports Secretary
+Organized and managed 5+ college sports events while promoting teamwork and student participation.
+Nov 2023 – May 2026
+CGPA: 7.2
+Aug 2020 – May 2023
+CGPA: 8.45
+Apr 2019 – Mar 2020
+Percent: 65.20
+Jan 2026 – May 2026
+Aug 2025 – Nov 2025
+Jan 2026 – Jun 2026
+Sep 2024 – Jan 2025
+Dec 2022 – May 2023
+May 2022
+May 2021
