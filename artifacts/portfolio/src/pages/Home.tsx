@@ -638,7 +638,7 @@ export default function Home() {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUp}>
             <SectionHeader index="05." title="Education & Certs" />
 
-            <div className="grid md:grid-cols-2 gap-6 mb-16">
+            <div className="grid md:grid-cols-3 gap-6 mb-16">
               <div className="bg-card border border-border p-8 rounded-xl relative overflow-hidden card-hover-border group">
                 <div className="absolute -top-4 -right-4 p-4 opacity-[0.03] group-hover:opacity-10 transition-opacity">
                   <GraduationCap size={120} />
@@ -657,6 +657,16 @@ export default function Home() {
                 <h3 className="font-bold text-xl mb-2 text-foreground">Senior Secondary Education</h3>
                 <p className="text-muted-foreground mb-6 h-12">Marthoma Higher Secondary School, Indore</p>
                 <div className="font-mono font-bold text-xl text-foreground">Score: <span className="text-secondary">76.4%</span></div>
+              </div>
+
+              <div className="bg-card border border-border p-8 rounded-xl relative overflow-hidden card-hover-border group">
+                <div className="absolute -top-4 -right-4 p-4 opacity-[0.03] group-hover:opacity-10 transition-opacity">
+                  <Award size={120} />
+                </div>
+                <div className="font-mono text-primary text-sm mb-4 bg-primary/10 w-max px-3 py-1 rounded-md">Apr 2018 – Mar 2019</div>
+                <h3 className="font-bold text-xl mb-2 text-foreground">Secondary Education</h3>
+                <p className="text-muted-foreground mb-6 h-12">Marthoma Higher Secondary School, Indore</p>
+                <div className="font-mono font-bold text-xl text-foreground">Score: <span className="text-secondary">87.6%</span></div>
               </div>
             </div>
 
