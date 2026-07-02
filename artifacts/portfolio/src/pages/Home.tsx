@@ -664,7 +664,7 @@ export default function Home() {
                   <Award size={120} />
                 </div>
                 <div className="font-mono text-primary text-sm mb-4 bg-primary/10 w-max px-3 py-1 rounded-md">Apr 2018 – Mar 2019</div>
-                <h3 className="font-bold text-xl mb-2 text-foreground">Secondary Education</h3>
+                <h3 className="font-bold text-xl mb-2 text-foreground">Higher Secondary Education</h3>
                 <p className="text-muted-foreground mb-6 h-12">Marthoma Higher Secondary School, Indore</p>
                 <div className="font-mono font-bold text-xl text-foreground">Percentage: <span className="text-secondary">87.6%</span></div>
               </div>
