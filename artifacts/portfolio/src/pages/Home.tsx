@@ -229,7 +229,7 @@ export default function Home() {
                   I'm a driven developer with a passion for building software that makes an impact. Currently pursuing my B.Tech in Information Technology at Acropolis Institute of Technology and Research, Indore.
                 </p>
                 <p>
-                  My journey started with Python and data-driven development, and I've since grown into machine learning and full-stack web development. From training predictive models to building interactive React + Flask applications, I enjoy working across the entire stack.
+                  My journey started with Python and data-driven development, and I've since grown into machine learning. From training predictive models to building interactive React + Flask applications, I enjoy working across the entire stack.
                 </p>
                 <p>
                   I'm adaptable, communicative, and a continuous learner. When I'm not coding, I'm exploring new technologies, analysing data, or contributing to community initiatives through IEEE and entrepreneurship events.
