@@ -178,7 +178,7 @@ export default function Home() {
             
 
             <motion.p variants={fadeInUp} className="text-lg sm:text-xl text-muted-foreground mb-12 max-w-2xl leading-relaxed">
-              I'm a final-year IT student based in Indore, India. I build intelligent systems with machine learning, craft full-stack applications, and care deeply about clean code and data-driven solutions.
+              I'm an IT graduate based in Indore, India. I build intelligent systems with machine learning, craft full-stack applications, and care deeply about clean code and data-driven solutions.
             </motion.p>
             
             <motion.div variants={fadeInUp} className="flex flex-wrap items-center gap-6 mb-16">
