@@ -226,7 +226,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-[3fr_2fr] gap-12 items-start">
               <div className="text-muted-foreground space-y-6 text-lg leading-relaxed">
                 <p>
-                  I'm a driven developer with a passion for building software that makes an impact. Currently pursuing my B.Tech in Information Technology at Acropolis Institute of Technology and Research, Indore.
+                  I'm a driven developer with a passion for building software that makes an impact. Graduated with a B.Tech in Information Technology from Acropolis Institute of Technology and Research, Indore.
                 </p>
                 <p>
                   My journey started with Python and data-driven development, and I've since grown into machine learning and full-stack web development. From training predictive models to building interactive React + Flask applications, I enjoy working across the entire stack.
