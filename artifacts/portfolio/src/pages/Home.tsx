@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 import { Moon, Sun, Menu, X, Github, Linkedin, Mail, MapPin, Phone, Terminal, Briefcase, GraduationCap, Award, Zap, Code, Database, Globe, ArrowRight } from "lucide-react";
-import { SiPython, SiReact, SiHtml5, SiMysql, SiFirebase, SiFlask, SiNumpy, SiPandas, SiCplusplus, SiGit, SiLeaflet, SiVscodium, SiVercel } from "react-icons/si";
+import { SiPython, SiReact, SiHtml5, SiMysql, SiFirebase, SiFlask, SiNumpy, SiPandas, SiGit, SiVscodium } from "react-icons/si";
 import { useTheme } from "@/components/ThemeProvider";
 
 const SECTIONS = [
@@ -556,11 +556,9 @@ export default function Home() {
                 >
                   {[
                     { icon: <SiPython size={32} />, name: "Python" },
-                    { icon: <SiCplusplus size={32} />, name: "C++" },
                     { icon: <SiHtml5 size={32} />, name: "HTML5" },
                     { icon: <Code size={32} />, name: "CSS3" },
                     { icon: <SiMysql size={32} />, name: "SQL" },
-                    { icon: <Database size={32} />, name: "Power BI" },
                   ].map((tech, i) => (
                     <motion.div 
                       key={tech.name} 
@@ -588,15 +586,14 @@ export default function Home() {
                   className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4"
                 >
                   {[
-                    { icon: <SiFirebase size={32} />, name: "Firebase" },
-                    { icon: <SiGit size={32} />, name: "Git" },
                     { icon: <SiNumpy size={32} />, name: "NumPy" },
                     { icon: <SiPandas size={32} />, name: "Pandas" },
                     { icon: <Code size={32} />, name: "Scikit-learn" },
+                    { icon: <SiFirebase size={32} />, name: "Firebase" },
+                    { icon: <SiGit size={32} />, name: "Git" },
                     { icon: <Globe size={32} />, name: "TensorFlow" },
-                    { icon: <SiLeaflet size={32} />, name: "Leaflet.js" },
+                    { icon: <Database size={32} />, name: "Power BI" },
                     { icon: <SiVscodium size={32} />, name: "VS Code" },
-                    { icon: <SiVercel size={32} />, name: "Vercel" },
                   ].map((tech) => (
                     <motion.div 
                       key={tech.name} 
