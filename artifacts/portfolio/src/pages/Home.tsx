@@ -656,7 +656,7 @@ export default function Home() {
                 <div className="font-mono text-primary text-sm mb-4 bg-primary/10 w-max px-3 py-1 rounded-md">Apr 2021 – Jun 2022</div>
                 <h3 className="font-bold text-xl mb-2 text-foreground">Senior Secondary Education</h3>
                 <p className="text-muted-foreground mb-6 h-12">Marthoma Higher Secondary School, Indore</p>
-                <div className="font-mono font-bold text-xl text-foreground">Score: <span className="text-secondary">76.4%</span></div>
+                <div className="font-mono font-bold text-xl text-foreground">Percentage: <span className="text-secondary">76.4%</span></div>
               </div>
 
               <div className="bg-card border border-border p-8 rounded-xl relative overflow-hidden card-hover-border group">
@@ -666,7 +666,7 @@ export default function Home() {
                 <div className="font-mono text-primary text-sm mb-4 bg-primary/10 w-max px-3 py-1 rounded-md">Apr 2018 – Mar 2019</div>
                 <h3 className="font-bold text-xl mb-2 text-foreground">Secondary Education</h3>
                 <p className="text-muted-foreground mb-6 h-12">Marthoma Higher Secondary School, Indore</p>
-                <div className="font-mono font-bold text-xl text-foreground">Score: <span className="text-secondary">87.6%</span></div>
+                <div className="font-mono font-bold text-xl text-foreground">Percentage: <span className="text-secondary">87.6%</span></div>
               </div>
             </div>
 
